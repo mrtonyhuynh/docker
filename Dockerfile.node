@@ -1,0 +1,14 @@
+FROM node:lts-alpine
+
+RUN mkdir -p /app
+
+WORKDIR /app
+
+# Create app directory
+RUN mkdir -p /app
+
+WORKDIR /app
+
+ENTRYPOINT /bin/sh -c
+
+CMD node
